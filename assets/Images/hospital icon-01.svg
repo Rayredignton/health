@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="26.187" height="37.283" viewBox="0 0 26.187 37.283">
+  <defs>
+    <linearGradient id="linear-gradient" y1="0.307" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#8ce1f2"/>
+      <stop offset="1" stop-color="#003cff"/>
+    </linearGradient>
+  </defs>
+  <g id="hospital_icon-01" data-name="hospital icon-01" transform="translate(-2.308 -6.286)">
+    <path id="Path_561" data-name="Path 561" d="M21.864,6.065H19.158a6.065,6.065,0,1,0-12.129,0H4.324A4.324,4.324,0,0,0,0,10.388V32.959a4.324,4.324,0,0,0,4.324,4.324H8.505c0-.06-.008-.121-.008-.182V27.128a2.181,2.181,0,0,1,2.18-2.18h4.832a2.181,2.181,0,0,1,2.18,2.18V37.1c0,.061,0,.122-.008.182h4.182a4.324,4.324,0,0,0,4.324-4.324V10.388A4.323,4.323,0,0,0,21.864,6.065ZM8.477,20.792a.365.365,0,0,1-.365.365H3.26a.365.365,0,0,1-.365-.365v-.579a.365.365,0,0,1,.365-.365H8.111a.365.365,0,0,1,.365.365Zm0-4.755a.365.365,0,0,1-.365.365H3.26a.365.365,0,0,1-.365-.365v-.579a.365.365,0,0,1,.365-.365H8.111a.365.365,0,0,1,.365.365Zm14.886,4.755a.365.365,0,0,1-.365.365H18.145a.365.365,0,0,1-.365-.365v-.579a.365.365,0,0,1,.365-.365H23a.365.365,0,0,1,.365.365Zm0-4.755A.365.365,0,0,1,23,16.4H18.145a.365.365,0,0,1-.365-.365v-.579a.365.365,0,0,1,.365-.365H23a.365.365,0,0,1,.365.365Z" transform="translate(2.308 6.286)" fill="url(#linear-gradient)"/>
+    <line id="Line_4" data-name="Line 4" y2="4.558" transform="translate(15.413 8.813)" fill="none" stroke="#fff" stroke-linecap="round" stroke-width="2"/>
+    <line id="Line_5" data-name="Line 5" y2="4.558" transform="translate(17.692 11.092) rotate(90)" fill="none" stroke="#fff" stroke-linecap="round" stroke-width="2"/>
+  </g>
+</svg>
