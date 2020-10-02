@@ -18,7 +18,7 @@ class _WorkspaceState extends State<Workspace> {
 
 
   bool _isLoading = false;
-  logIn(String url) async {
+  Verify(String url) async {
     String url = "https://markus-dev.herokuapp.com/api/auth/workspace";
     //SharedPreferences sharedPreferences = await SharedPreferences.getInstance();
     Map body = {"url": url};
@@ -97,18 +97,15 @@ class _WorkspaceState extends State<Workspace> {
               width: MediaQuery.of(context).size.width * 0.94,
      
               child: FlatButton(
-                  onPressed: () async {
-                    var url = urlControl.text;
-                    setState(() {
-                      messsage = 'please wait....';
-                    });
-                    var rsp = await verifyUrl(url);
-                    print(rsp);
-                    Navigator.push(context,
-                        MaterialPageRoute(builder: (context) {
-                      return Login();
-                    }));
-                  },
+                   onPressed: urlControl.text == ""
+                             
+                          ? null
+                          : () {
+                              setState(() {
+                                _isLoading = true;
+                              });
+                              Verify(urlControl.text);
+                            },
                   child: Text(
                     "Confirm",
                     style: TextStyle(

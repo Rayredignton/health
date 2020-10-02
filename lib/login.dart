@@ -20,11 +20,11 @@ class _LoginState extends State<Login> {
 
   bool _isLoading = false;
   logIn(String email, String pass, String hospital) async {
-    String url = "https://markus-dev.herokuapp.com/api/auth/login";
+    String urls = "https://markus-dev.herokuapp.com/api/auth/login";
     //SharedPreferences sharedPreferences = await SharedPreferences.getInstance();
     Map body = {"email": email, "password": pass, "hospital": hospital};
     var jsonResponse;
-    var res = await http.post(url, body: body);
+    var res = await http.post(urls, body: body);
     if (res.statusCode == 200) {
       jsonResponse = json.decode(res.body);
       print("Response Status: ${res.statusCode}");
